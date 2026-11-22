@@ -1,0 +1,29 @@
+aid: openagentapi-pages-dev
+name: Open Agent API
+description: 'Open Agent API is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/openagentapi-pages-dev/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-22'
+modified: '2026-11-22'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://openagentapi.pages.dev
+- type: Documentation
+  url: https://jiangxingfan1-coder.github.io/Open-Agent-API/docs/protocol.html
+x-submission-notes: Apache-2.0 self-hosted agent gateway (no public endpoint; users run their own). Repo
+  https://github.com/jiangxingfan1-coder/Open-Agent-API ; OpenAPI 3.1 linked in api-search/inbox#73. Listing
+  approved by Kin 2026-11-22.
+x-submission-probe: docs site 200
